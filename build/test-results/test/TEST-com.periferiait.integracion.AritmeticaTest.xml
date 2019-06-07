@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.periferiait.integracion.AritmeticaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-07T20:01:52" hostname="PE-HO-ATH-004" time="0.022">
+<testsuite name="com.periferiait.integracion.AritmeticaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-07T21:08:56" hostname="PE-HO-ATH-004" time="0.016">
   <properties/>
-  <testcase name="suma()" classname="com.periferiait.integracion.AritmeticaTest" time="0.02"/>
+  <testcase name="suma()" classname="com.periferiait.integracion.AritmeticaTest" time="0.013"/>
   <testcase name="multiplicacion()" classname="com.periferiait.integracion.AritmeticaTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[test suma
