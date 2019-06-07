@@ -1,3 +1,9 @@
 rootProject.name = 'SonarGradle'
 systemProp.sonar.host.url=http://181.143.149.182:9002
+systemProp.sonar.login=1018c0d2a737e44db22e2eb5adc2f8e307a36169
+sonar.projectKey=KeyMobile
+sonar.projectName=GreenMobile
+
+
+
 
