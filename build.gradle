@@ -3,6 +3,8 @@ plugins {
     id 'java-library'
 }
 
+apply plugin: 'maven'
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
@@ -11,6 +13,10 @@ dependencies {
     testCompileOnly 'junit:junit:4.12' 
     testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.3.1' 
     
+}
+
+plugins {
+  id "org.sonarqube" version "2.7.1"
 }
 
 repositories {
