@@ -1,1 +1,3 @@
 rootProject.name = 'SonarGradle'
+systemProp.sonar.host.url=http://181.143.149.182:9002
+
