@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -34,18 +35,20 @@ public class AritmeticaTest {
     @AfterEach
     public void tearDown() {
     }
-    
+    @Tag("test")
     @Test
     public void suma() {
+        System.err.println("test suma");
         Aritmetica aritmetica=new Aritmetica();
         assert(aritmetica.suma(1, 1)==2);
     }
     
-    
+    @Tag("test")
       @Test
     public void multiplicacion() {
+        System.err.println("test multiplicacion");
         Aritmetica aritmetica=new Aritmetica();
-        assert(aritmetica.multiplicacion(1, 1)==2);
+        assert(aritmetica.multiplicacion(1, 1)==1);
     }
 
     // TODO add test methods here.
