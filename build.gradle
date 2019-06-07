@@ -11,7 +11,7 @@ sourceCompatibility = '1.8'
 // prefer. In this case NetBeans will not add these tasks but you may rely on
 // your own implementation.
 if (!hasProperty('mainClass')) {
-    ext.mainClass = ''
+    ext.mainClass = 'com.periferiait.integracion.Aritmetica'
 }
 
 repositories {
@@ -27,4 +27,10 @@ dependencies {
     //   http://www.gradle.org/docs/current/userguide/dependency_management.html#sec:how_to_declare_your_dependencies
 // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.4.2'
+}
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
 }
